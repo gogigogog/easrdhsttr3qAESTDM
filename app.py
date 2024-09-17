@@ -12,7 +12,7 @@ user_balance = {'user_id': {'messages_left': 0}}
 
 @app.route('/')
 def balance():
-    return render_template('balance.html')
+    return render_template('./templates/balance.html')
 
 @app.route('/chat')
 def index():
