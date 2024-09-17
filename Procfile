@@ -1,1 +1,1 @@
-web: python /static/python.py
+web: python python.py
