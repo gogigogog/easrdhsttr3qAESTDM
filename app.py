@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from collections import deque
 import os
 
-app = Flask(__name__, static_folder='static', template_folder='templates')
+app = Flask(__name__, static_folder='static', template_folder='static/templates')
 
 
 # Очередь для хранения сообщений (не более 100)
